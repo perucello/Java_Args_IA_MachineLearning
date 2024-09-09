@@ -1,0 +1,10 @@
+@RELATION sentiment_data_arguments
+
+@ATTRIBUTE text STRING
+@ATTRIBUTE sentiment {positive, negative}
+
+@DATA
+"This is a great product", positive
+"I am very satisfied with the service", positive
+"I am not happy with the purchase", negative
+"This is the worst experience ever", negative
